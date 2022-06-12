@@ -502,6 +502,6 @@ console.log(
   "Report bugs and fork the project on GitHub: https://github.com/SoftwareGuy/NodeListServer"
 );
 
-expressApp.listen(configuration.Core.listenPort, () =>
+expressApp.listen(process.env.PORT, () =>
   console.log(`NodeLS is now listening on port ${configuration.Core.listenPort}.`)
 );
