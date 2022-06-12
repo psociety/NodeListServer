@@ -1,1 +1,1 @@
-web: node listServer
+web: setup.sh
